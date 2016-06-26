@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		8AA7876D1AAE749200468C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7876C1AAE749200468C22 /* AppDelegate.swift */; };
 		8AA7876F1AAE749200468C22 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA7876E1AAE749200468C22 /* FirstViewController.swift */; };
-		8AA787711AAE749200468C22 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787701AAE749200468C22 /* SecondViewController.swift */; };
 		8AA787741AAE749200468C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA787721AAE749200468C22 /* Main.storyboard */; };
 		8AA787761AAE749200468C22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA787751AAE749200468C22 /* Images.xcassets */; };
 		8AA787791AAE749200468C22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AA787771AAE749200468C22 /* LaunchScreen.xib */; };
 		8AA787851AAE749200468C22 /* PrayerTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787841AAE749200468C22 /* PrayerTimeTests.swift */; };
+		8AA7878F1AAE755A00468C22 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA7878E1AAE755900468C22 /* Storyboard.storyboard */; };
+		8AA787B71AAE8B8300468C22 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787B61AAE8B8300468C22 /* SecondViewController.swift */; };
+		8AA787B91AB1666800468C22 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787B81AB1666800468C22 /* ThirdViewController.swift */; };
+		8AA787BB1AB2A5EA00468C22 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787BA1AB2A5EA00468C22 /* FourthViewController.swift */; };
+		8AA787BD1AB2A5FA00468C22 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787BC1AB2A5FA00468C22 /* FifthViewController.swift */; };
+		8AA787BF1AB2B44100468C22 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA787BE1AB2B44100468C22 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,18 @@
 		8AA7876B1AAE749200468C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA7876C1AAE749200468C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AA7876E1AAE749200468C22 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8AA787701AAE749200468C22 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8AA787731AAE749200468C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA787751AAE749200468C22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AA787781AAE749200468C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8AA7877E1AAE749200468C22 /* PrayerTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayerTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA787831AAE749200468C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA787841AAE749200468C22 /* PrayerTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTests.swift; sourceTree = "<group>"; };
+		8AA7878E1AAE755900468C22 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		8AA787B61AAE8B8300468C22 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8AA787B81AB1666800468C22 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		8AA787BA1AB2A5EA00468C22 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		8AA787BC1AB2A5FA00468C22 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		8AA787BE1AB2B44100468C22 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +90,16 @@
 			isa = PBXGroup;
 			children = (
 				8AA7876C1AAE749200468C22 /* AppDelegate.swift */,
+				8AA787B61AAE8B8300468C22 /* SecondViewController.swift */,
 				8AA7876E1AAE749200468C22 /* FirstViewController.swift */,
-				8AA787701AAE749200468C22 /* SecondViewController.swift */,
+				8AA787B81AB1666800468C22 /* ThirdViewController.swift */,
+				8AA787BA1AB2A5EA00468C22 /* FourthViewController.swift */,
+				8AA787BC1AB2A5FA00468C22 /* FifthViewController.swift */,
+				8AA787BE1AB2B44100468C22 /* SettingsViewController.swift */,
 				8AA787721AAE749200468C22 /* Main.storyboard */,
 				8AA787751AAE749200468C22 /* Images.xcassets */,
 				8AA787771AAE749200468C22 /* LaunchScreen.xib */,
+				8AA7878E1AAE755900468C22 /* Storyboard.storyboard */,
 				8AA7876A1AAE749200468C22 /* Supporting Files */,
 			);
 			path = PrayerTime;
@@ -159,14 +174,17 @@
 		8AA7875F1AAE749200468C22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Karim Soliman";
 				TargetAttributes = {
 					8AA787661AAE749200468C22 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = K9Y88EF639;
 					};
 					8AA7877D1AAE749200468C22 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = K9Y88EF639;
 						TestTargetID = 8AA787661AAE749200468C22;
 					};
 				};
@@ -196,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA787741AAE749200468C22 /* Main.storyboard in Resources */,
+				8AA7878F1AAE755A00468C22 /* Storyboard.storyboard in Resources */,
 				8AA787791AAE749200468C22 /* LaunchScreen.xib in Resources */,
 				8AA787761AAE749200468C22 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA787711AAE749200468C22 /* SecondViewController.swift in Sources */,
+				8AA787BD1AB2A5FA00468C22 /* FifthViewController.swift in Sources */,
+				8AA787B71AAE8B8300468C22 /* SecondViewController.swift in Sources */,
+				8AA787BF1AB2B44100468C22 /* SettingsViewController.swift in Sources */,
 				8AA7876D1AAE749200468C22 /* AppDelegate.swift in Sources */,
+				8AA787B91AB1666800468C22 /* ThirdViewController.swift in Sources */,
 				8AA7876F1AAE749200468C22 /* FirstViewController.swift in Sources */,
+				8AA787BB1AB2A5EA00468C22 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +302,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -340,8 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PrayerTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wfu.solikz12.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,8 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PrayerTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wfu.solikz12.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -360,6 +388,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -370,7 +400,9 @@
 				);
 				INFOPLIST_FILE = PrayerTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wfu.solikz12.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrayerTime.app/PrayerTime";
 			};
 			name = Debug;
@@ -379,13 +411,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = PrayerTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.wfu.solikz12.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrayerTime.app/PrayerTime";
 			};
 			name = Release;
@@ -409,6 +445,7 @@
 				8AA7878A1AAE749200468C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA7878B1AAE749200468C22 /* Build configuration list for PBXNativeTarget "PrayerTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				8AA7878D1AAE749200468C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
